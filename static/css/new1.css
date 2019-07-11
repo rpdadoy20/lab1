@@ -1,0 +1,47 @@
+body{
+	background-color: black;
+	color: #ffffff;
+	font-family: 'Source Sans Pro','Trebuchet MS', Helvetica, sans-serif;
+	
+}
+
+img {
+	border-radius: 50%;
+}
+
+div {
+
+  background-color: #D6D6D6;
+}
+
+.buttonborder a {
+	color:BBBCBD;
+}
+
+.brand_asset {
+    display: inline-block;
+    width: 100%;
+    margin-top: 3.5%;
+}
+
+.buttonborder {
+	padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+    border: 1px solid black;
+  background-color: #23232C;
+}
+
+.button {
+  border: none;
+  color: white;
+  background-color: #004466;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font: arvo;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
