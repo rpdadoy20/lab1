@@ -1,21 +1,30 @@
 body{
 	background-color: black;
 	color: #ffffff;
-	font-family: 'Source Sans Pro','Trebuchet MS', Helvetica, sans-serif;
+	font-family: 'Source Sans Pro','Trebuchet MS', Helvetica, sans-serif, Sin;
 	
 }
 
-img {
+h2 {
+	font-style: italic;
+	color: black;
+}
+
+h1{
+	font-size: 30px;
+	font-family: Sin City;
+	font-style: italic;
+	color: black;
+}
+
+img1 {
 	border-radius: 50%;
 }
 
-div {
-
-  background-color: #D6D6D6;
-}
 
 .buttonborder a {
-	color:BBBCBD;
+	color: white;
+	font-style: oblique;
 }
 
 .brand_asset {
@@ -25,11 +34,11 @@ div {
 }
 
 .buttonborder {
-	padding-top: 20px;
+  padding-top: 20px;
   padding-right: 10px;
   padding-bottom: 20px;
   padding-left: 10px;
-    border: 1px solid black;
+  border: 1px solid black;
   background-color: #23232C;
 }
 
@@ -44,4 +53,44 @@ div {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+photo{
+	font-size: 15px;
+	font-family: "Times New Roman", Times, serif;
+	font-style: normal;
+	color: white;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 250px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+#masthead #blog_title a {
+    border-bottom: 5px solid #202020;
+    color: #202020;
+}
+
+#blog_title a {
+    border-top: 1px solid rgba(83, 83, 83, 0.19);
+    opacity: 0.8;
+    padding: 0.4%;
 }
